@@ -1,11 +1,25 @@
 
+![Windows 11 Web Development Environment](/assets/windows11-webdev-environment.png)
+
 
 # The Ultimate Guide to Setting Up a Windows 11 Web Development Environment
 
   
 Setting up a streamlined and efficient web development environment on Windows 11 doesn’t need to be overwhelming. This enhanced guide will walk you through setting up essential tools, plugins, and optimizations tailored for modern web development. We'll also introduce a more hands-on learning approach by guiding you through projects, with recommended tools for improved productivity.
-## Table of Contents
 
+> 🚀 **Ready to supercharge your Windows 11 development environment?** Fork this repository to keep track of your progress and customize your setup! 
+> 
+> [![Fork the Repo](https://img.shields.io/github/forks/a99divx/ultimate-windows-web-dev-setup?style=social)](https://github.com/a99divx/ultimate-windows-web-dev-setup/fork)
+> [![Star the Repo](https://img.shields.io/github/stars/a99divx/ultimate-windows-web-dev-setup?style=social)](https://github.com/a99divx/ultimate-windows-web-dev-setup)
+> 
+> 📝 **Track Your Progress**: Use the [Issues](https://github.com/a99divx/ultimate-windows-web-dev-setup/issues) tab to create a checklist of tasks as you work through this guide.
+> 
+> 🔧 **Customize Your Setup**: Share your own tips and tricks by [contributing](https://github.com/a99divx/ultimate-windows-web-dev-setup/blob/main/CONTRIBUTING.md) to this guide!
+> 
+> 💡 **Get Help**: Join our [Discussions](https://github.com/a99divx/ultimate-windows-web-dev-setup/discussions) to ask questions and share your experiences with other developers.
+
+
+## Table of Contents
   
 
 1. [Introduction](#introduction)
@@ -48,46 +62,26 @@ In today’s fast-paced development environment, having a fully optimized setup 
 
 ## Windows Subsystem for Linux (WSL)
 
-  
-
-WSL allows you to run a Linux environment directly on Windows without the overhead of a virtual machine.
-
-  
+WSL allows you to run a Linux environment directly on Windows, providing a seamless integration between Windows and Linux development environments.
 
 ### Installing WSL 2
 
-  
-
 1. Open PowerShell as Administrator and run the following command:
-```
-
- wsl --install
-
-```
-3. Restart your computer
-
-  
+   ```powershell
+   wsl --install
+   ```
+2. Restart your computer to complete the installation
 
 ### Configuring WSL
 
-  
+1. Launch Ubuntu from the Start menu
+2. Wait for the initial setup to complete
+3. Create a UNIX username and password when prompted
+   - Note: The password will not be visible as you type
 
-1. Launch Ubuntu from the Start menu and wait for it to finish installing
-2. Create a UNIX username and password
+### Updating and Upgrading Linux
 
-  
-
-### Updating Linux
-
-  
-
-```bash
-
-sudo  apt  update && sudo  apt  upgrade  -y
-
-```
-
-  
+To ensure your Linux environment is up-to-date, run the following commands:
 
 ### Accessing Linux Files from Windows
 
