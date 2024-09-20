@@ -2,6 +2,8 @@
 
 # The Ultimate Guide to Setting Up a Windows 11 Web Development Environment 🚀
 
+⌚ Last Update: 16:47:29 UTC - Friday, 20 September 2024
+
 Setting up a powerful and efficient web development environment on Windows 11 doesn't have to be overwhelming. This guide will walk you through the process of installing essential tools, configuring your system for optimal performance, and introducing advanced tips and tricks to make your setup the best it can be. We'll cover everything from basic installations to advanced configurations, ensuring you're equipped with the knowledge to create a top-tier development environment.
 
 > 🚀 **Ready to supercharge your Windows 11 development environment?** Fork this repository to keep track of your progress and customize your setup!
